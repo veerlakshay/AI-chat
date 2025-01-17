@@ -1,0 +1,14 @@
+<div>
+
+    <h1 class="text-3xl text-center mt-30 mb-10 font-semibold text-gray-700">Ask Your Queries</h1>
+    <div class="chat-input flex gap-5">
+
+        <textarea id="message" rows="4" autofocus
+            class="block p-3 w-full text-sm text-gray-900 bg-gray-0 rounded-2xl border border-gray-300 focus:ring-0 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-none placeholder-gray-900"
+            placeholder="Write your thoughts here...">
+        </textarea>
+        <button (click)="sendButtonClicked()"
+            class="px-3 bg-gray-700 hover:bg-gray-500 text-white rounded-lg">Send</button>
+
+    </div>
+</div>
