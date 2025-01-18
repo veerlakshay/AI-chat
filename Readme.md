@@ -1,25 +1,57 @@
-# Chatbot Project
+# Chatbot Project 🤖  
 
-This project consists of a frontend built with Angular and a backend built with Spring Boot. The frontend is a chatbot interface, and the backend provides AI-based responses.
+This project is a feature-rich chatbot application with a **frontend built in Angular** and a **backend powered by Spring Boot**. The chatbot leverages AI models to provide intelligent, context-aware responses and generate visually appealing images.  
 
-## Features
+---
 
-### General Question Answering
-- The chatbot can answer general questions by generating responses using AI models.
-- Users can input any question, and the chatbot will provide a relevant response.
+## Features 🚀  
 
-### Sport Question Answering
-- The chatbot is equipped with a specialized feature to answer sport-related questions.
+### 1. **General Question Answering**  
+- The chatbot can answer a wide range of general questions using advanced AI models.  
+- Users can input any query, and the chatbot provides accurate and relevant responses.  
 
-### Image Generation
-- The chatbot can generate images based on a given description.
-- Users can specify the description and the number of images they want to generate.
-- The images are generated using AI models and are designed to look natural and visually appealing.
+### 2. **Sports Question Answering**  
+- Specialized in answering sports-related queries with precise and domain-specific responses.  
 
-## Backend
+### 3. **Image Generation**  
+- Users can generate images by providing a description.  
+- Supports specifying the number of images required.  
+- AI-generated images are designed to look natural and visually engaging.  
 
-The backend is a Spring Boot application that provides AI-based responses for the chatbot.
+---
 
+## Technologies Used 🛠️  
 
+### **Frontend**  
+- **Framework**: Angular  
+- **Key Features**: Dynamic chatbot interface with an intuitive user experience  
 
+### **Backend**  
+- **Framework**: Spring Boot  
+- **Core Functionality**: Handles AI-based responses and image generation requests  
 
+### **AI Models**  
+- **Response Generation**: Powered by gpt-4o 
+- **Image Generation**: Utilizes state-of-the-art image generation model DALL-E
+
+---
+
+## Installation and Setup 📦  
+
+### Prerequisites  
+- Node.js and npm (for the frontend)  
+- Java and Maven (for the backend)  
+- API keys for the AI services used 
+### Steps  
+
+#### 1. Clone the Repository  
+```bash  
+git clone https://github.com/veerlakshay/AI-chat.git  
+
+cd frontend  
+npm install  
+ng serve  
+
+cd backend  
+mvn clean install  
+mvn spring-boot:run  
